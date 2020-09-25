@@ -38,7 +38,7 @@ services:
         - ./channel-artifacts/genesis.block:/var/hyperledger/orderer/orderer.genesis.block
         - ./crypto-config/ordererOrganizations/example.com/orderers/orderer5.example.com/msp:/var/hyperledger/orderer/msp
         - ./crypto-config/ordererOrganizations/example.com/orderers/orderer5.example.com/tls/:/var/hyperledger/orderer/tls
-        - orderer5.example.com:/var/hyperledger/production/orderer
+        - orderer5.example.com:/var/hyperledger/production
     ports:
     - 11050:11050
 
